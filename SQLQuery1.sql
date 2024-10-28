@@ -1,4 +1,7 @@
-USE [BookShoppingCartMvc]
+### Genre
+
+```sql
+  USE [BookShoppingCartMvc]
   GO
   SET IDENTITY_INSERT [dbo].[Genre] ON
   GO
@@ -17,6 +20,11 @@ USE [BookShoppingCartMvc]
   SET IDENTITY_INSERT [dbo].[Genre] OFF
   GO
 
+```
+
+### Book
+
+```sql
   USE [BookShoppingCartMvc]
 
   INSERT INTO book (BookName, AuthorName, Price, GenreId)
@@ -72,8 +80,12 @@ USE [BookShoppingCartMvc]
   ('The Pragmatic Programmer', 'Andrew Hunt', 18.99, 6),
   ('Head First Design Patterns', 'Eric Freeman', 20.99, 6);
 
+```
 
-  USE [BookShoppingCartMvc]
+### Order Status
+
+```sql
+   USE [BookShoppingCartMvc]
    GO
    SET IDENTITY_INSERT [dbo].[OrderStatus] ON
    GO
@@ -92,8 +104,14 @@ USE [BookShoppingCartMvc]
    SET IDENTITY_INSERT [dbo].[OrderStatus] OFF
    GO
 
+```
 
-   create  procedure [dbo].[Usp_GetTopNSellingBooksByDate]
+## Other useful sql scripts
+
+You also need to add this stored procedure in your database.
+
+```sql
+create  procedure [dbo].[Usp_GetTopNSellingBooksByDate]
 @startDate datetime,@endDate datetime
 as
 begin
@@ -114,3 +132,4 @@ join [Book] b
 on us.BookId = b.Id
 order by us.TotalUnitSold desc
 end
+```
