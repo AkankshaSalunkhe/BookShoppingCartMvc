@@ -11,7 +11,6 @@
 1.Open command prompt. Go to a directory where you want to clone this project. Use this command to clone the project.
 
 ```bash
-<<<<<<< HEAD
 git clone https://github.com/AkankshaSalunkhe/BookShoppingCartMvc
 ```
 
