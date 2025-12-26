@@ -11,12 +11,12 @@
 1.Open command prompt. Go to a directory where you want to clone this project. Use this command to clone the project.
 
 ```bash
-git clone https://github.com/AkankshaSalunkhe/BookShoppingCartMvc
+git clone https://github.com/AkankshaSalunkhe/BookShoppingCartMvc.git
 ```
 
 2.Go to the directory where you have cloned this project, open the directory `BookShoppingCart-Mvc`. You will find a file with name `BookShoppingCartMvc.sln`. Double click on this file and this project will be opened in Visual Studio.
 =======
-git clone https://github.com/AkankshaSalunkhe/BookShoppingCart
+git clone https://github.com/AkankshaSalunkhe/BookShoppingCartMvc.git
 ```
 
 2.Go to the directory where you have cloned this project, open the directory `BookShoppingCart`. You will find a file with name `BookShoppingCartMvc.sln`. Double click on this file and this project will be opened in Visual Studio.
