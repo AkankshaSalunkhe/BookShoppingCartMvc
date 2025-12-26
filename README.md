@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BookShoppingCartMvc (A basic e-comm system for beginners)📚🛒
 
 It is a source code of the youtube tutorial on [book shopping cart in .net core mvc](https://www.youtube.com/watch?v=R4ZLWD89R5w&list=PLP8UhDwXI7f_8r2Rbt7GNwf7eXZqUu_p4). I have tried to explain how shopping cart 🛒 works in dot net core mvc. A ⭐ in repository is highly appreciated, helps to promote my content.
@@ -5,6 +6,11 @@ It is a source code of the youtube tutorial on [book shopping cart in .net core 
 📢 Initially , this project was built with .net 7. But it works fine with .net 6+ and now it is **Upgraded to .net 8.0.** I will try to keep it up to date.
 
 ## Tech stack 🧑‍💻
+=======
+# BookShoppingCartMvc (A basic e-comm system)
+
+## Tech Stack
+>>>>>>> e82406173374dccce353ed126bb2ac87e3f4ae5b
 
    - Dotnet core mvc (.Net 8)
    - MS SQLServer (Database)
@@ -12,6 +18,7 @@ It is a source code of the youtube tutorial on [book shopping cart in .net core 
    - Identity Core (Authentication)
    - Bootstrap 5 (frontend)
 
+<<<<<<< HEAD
 ## Video tutorial 📺
 
 [Youtube playlist](https://www.youtube.com/watch?v=R4ZLWD89R5w&list=PLP8UhDwXI7f_8r2Rbt7GNwf7eXZqUu_p4)
@@ -19,14 +26,24 @@ It is a source code of the youtube tutorial on [book shopping cart in .net core 
 ## How to run the project?🌐
 
 I am assuming that, you have already installed **Visual Studio 2022** (It is the latest as of march,2024) and **MS SQL Server Management Studio** (I am using mssql server 2022 as of march,2024). Now, follow the following steps.
+=======
+## How to run the project?
+>>>>>>> e82406173374dccce353ed126bb2ac87e3f4ae5b
 
 1.Open command prompt. Go to a directory where you want to clone this project. Use this command to clone the project.
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/rd003/BookShoppingCart-Mvc
 ```
 
 2.Go to the directory where you have cloned this project, open the directory `BookShoppingCart-Mvc`. You will find a file with name `BookShoppingCartMvc.sln`. Double click on this file and this project will be opened in Visual Studio.
+=======
+git clone https://github.com/AkankshaSalunkhe/BookShoppingCart
+```
+
+2.Go to the directory where you have cloned this project, open the directory `BookShoppingCart`. You will find a file with name `BookShoppingCartMvc.sln`. Double click on this file and this project will be opened in Visual Studio.
+>>>>>>> e82406173374dccce353ed126bb2ac87e3f4ae5b
 
 3.Open `appsettings.json` file and update connection string
 
@@ -50,7 +67,11 @@ git clone https://github.com/rd003/BookShoppingCart-Mvc
 
 7.Now you can run this project.
 
+<<<<<<< HEAD
 ## How to register as admin and login?? 🧑‍💻🧑‍💻
+=======
+## How to register as admin and login?? 
+>>>>>>> e82406173374dccce353ed126bb2ac87e3f4ae5b
 
 1.Open the `Program.cs` file , you will find these commented lines
 
@@ -67,6 +88,7 @@ Uncomment these line and run the project. `Now stop the project and comment thes
 
 ```text
 username: admin@gmail.com
+<<<<<<< HEAD
 password: Admin@123
 ```
 
@@ -84,6 +106,21 @@ I have provided some data of these 3 tables to test the application.
 - Genre (You can also add it from the admin panel)
 - Book (You can also add it from the admin panel)
 - OrderStatus (⚠️It Contain Constants. You Can not enter OrderStatus from the Admin panel. It must be added through sql server)
+=======
+
+password: Admin@123
+```
+
+## Data Entry 
+
+I have provided some data of these 3 tables to test the application.
+
+**⚠Note: Data entry of Genre and Book is optional, you can do it from admin panel but you must enter some data for OrderStatus.**
+
+- Genre (You can also add it from the admin panel)
+- Book (You can also add it from the admin panel)
+- OrderStatus (It Contain Constants. You Can not enter OrderStatus from the Admin panel. It must be added through sql server)
+>>>>>>> e82406173374dccce353ed126bb2ac87e3f4ae5b
 
 Please, run these scripts in a order. Genre data must be added before book.
 
@@ -223,6 +260,7 @@ order by us.TotalUnitSold desc
 end
 ```
 
+<<<<<<< HEAD
 ## Screenshots
 
 1.Homepage
@@ -327,3 +365,28 @@ Become a supporter ❣️:
 You can buy me a coffee 🍵 : <https://www.buymeacoffee.com/ravindradevrani>
 
 Thanks a lot 🙂🙂
+=======
+## Functionality
+1.Homepage
+2.Homepage continued
+3.Login
+4.Registration
+5.Add To Cart
+6.Cart
+7.Checkout
+8.Order success
+9.Admin Login
+10.Admin Dashboard
+11.Orders
+12.Order Detail
+13.Update Order Status
+14.Display Stock
+15.Update Stock
+16.Display Genre
+17.Add Genre
+18.Update Genre
+19.Display Books
+20.Add Book
+21.Update Book
+22.Top Selling Books
+>>>>>>> e82406173374dccce353ed126bb2ac87e3f4ae5b
