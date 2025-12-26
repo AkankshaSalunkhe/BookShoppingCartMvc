@@ -1,40 +1,18 @@
-<<<<<<< HEAD
-# BookShoppingCartMvc (A basic e-comm system for beginners)📚🛒
-
-It is a source code of the youtube tutorial on [book shopping cart in .net core mvc](https://www.youtube.com/watch?v=R4ZLWD89R5w&list=PLP8UhDwXI7f_8r2Rbt7GNwf7eXZqUu_p4). I have tried to explain how shopping cart 🛒 works in dot net core mvc. A ⭐ in repository is highly appreciated, helps to promote my content.
-
-📢 Initially , this project was built with .net 7. But it works fine with .net 6+ and now it is **Upgraded to .net 8.0.** I will try to keep it up to date.
-
-## Tech stack 🧑‍💻
-=======
-# BookShoppingCartMvc (A basic e-comm system)
-
 ## Tech Stack
->>>>>>> e82406173374dccce353ed126bb2ac87e3f4ae5b
-
    - Dotnet core mvc (.Net 8)
    - MS SQLServer (Database)
    - Entity Framework Core (ORM)
    - Identity Core (Authentication)
    - Bootstrap 5 (frontend)
 
-<<<<<<< HEAD
-## Video tutorial 📺
 
-[Youtube playlist](https://www.youtube.com/watch?v=R4ZLWD89R5w&list=PLP8UhDwXI7f_8r2Rbt7GNwf7eXZqUu_p4)
-
-## How to run the project?🌐
-
-I am assuming that, you have already installed **Visual Studio 2022** (It is the latest as of march,2024) and **MS SQL Server Management Studio** (I am using mssql server 2022 as of march,2024). Now, follow the following steps.
-=======
 ## How to run the project?
->>>>>>> e82406173374dccce353ed126bb2ac87e3f4ae5b
 
 1.Open command prompt. Go to a directory where you want to clone this project. Use this command to clone the project.
 
 ```bash
 <<<<<<< HEAD
-git clone https://github.com/rd003/BookShoppingCart-Mvc
+git clone https://github.com/AkankshaSalunkhe/BookShoppingCartMvc
 ```
 
 2.Go to the directory where you have cloned this project, open the directory `BookShoppingCart-Mvc`. You will find a file with name `BookShoppingCartMvc.sln`. Double click on this file and this project will be opened in Visual Studio.
@@ -43,7 +21,6 @@ git clone https://github.com/AkankshaSalunkhe/BookShoppingCart
 ```
 
 2.Go to the directory where you have cloned this project, open the directory `BookShoppingCart`. You will find a file with name `BookShoppingCartMvc.sln`. Double click on this file and this project will be opened in Visual Studio.
->>>>>>> e82406173374dccce353ed126bb2ac87e3f4ae5b
 
 3.Open `appsettings.json` file and update connection string
 
@@ -67,11 +44,8 @@ git clone https://github.com/AkankshaSalunkhe/BookShoppingCart
 
 7.Now you can run this project.
 
-<<<<<<< HEAD
-## How to register as admin and login?? 🧑‍💻🧑‍💻
-=======
+
 ## How to register as admin and login?? 
->>>>>>> e82406173374dccce353ed126bb2ac87e3f4ae5b
 
 1.Open the `Program.cs` file , you will find these commented lines
 
@@ -120,7 +94,6 @@ I have provided some data of these 3 tables to test the application.
 - Genre (You can also add it from the admin panel)
 - Book (You can also add it from the admin panel)
 - OrderStatus (It Contain Constants. You Can not enter OrderStatus from the Admin panel. It must be added through sql server)
->>>>>>> e82406173374dccce353ed126bb2ac87e3f4ae5b
 
 Please, run these scripts in a order. Genre data must be added before book.
 
@@ -260,7 +233,7 @@ order by us.TotalUnitSold desc
 end
 ```
 
-<<<<<<< HEAD
+
 ## Screenshots
 
 1.Homepage
@@ -351,21 +324,8 @@ end
 
 ![Top Selling Books](./screenshots/22%20top%20selling%20books.jpg)
 
-## Thanks
 
-If you find this repository useful, then consider to leave a ⭐.
 
-Connect with me
-
-👉 YouTube: <https://youtube.com/@ravindradevrani>
-
-👉 Twitter: <https://twitter.com/ravi_devrani>
-
-Become a supporter ❣️:
-You can buy me a coffee 🍵 : <https://www.buymeacoffee.com/ravindradevrani>
-
-Thanks a lot 🙂🙂
-=======
 ## Functionality
 1.Homepage
 2.Homepage continued
@@ -389,4 +349,4 @@ Thanks a lot 🙂🙂
 20.Add Book
 21.Update Book
 22.Top Selling Books
->>>>>>> e82406173374dccce353ed126bb2ac87e3f4ae5b
+
